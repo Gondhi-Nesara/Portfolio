@@ -73,9 +73,9 @@ nav a {
 }
 
 .profile-pic {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  border-radius: 40%;
   border: 3px solid #7f5af0;
   margin-bottom: 20px;
 }
@@ -166,18 +166,18 @@ footer {
 
 .photo-wrapper {
   position: relative;
-  width: 160px;
-  height: 160px;
+  width: 170px;
+  height: 180px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .photo-wrapper::before {
-  content: "";
+  content: " ";
   position: absolute;
-  width: 160px;
-  height: 160px;
+  width: 170px;
+  height: 180px;
   border-radius: 50%;
   background: conic-gradient(
     from 0deg,
@@ -185,7 +185,7 @@ footer {
     rgba(127, 90, 240, 0.6),
     transparent
   );
-  filter: blur(12px);
+  filter: blur(8px);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
