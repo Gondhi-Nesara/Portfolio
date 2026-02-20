@@ -12,8 +12,8 @@ for (let i = 0; i < 100; i++) {
   stars.push({
     x: Math.random() * canvas.width,
     y: Math.random() * canvas.height,
-    r: Math.random() * 1.2,
-    speed: Math.random() * 0.3 + 0.1
+    r: Math.random() *  3.5,
+    speed: Math.random() * 1
   });
 }
 
